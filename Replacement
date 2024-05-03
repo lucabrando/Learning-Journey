@@ -1,0 +1,3 @@
+str.replace(old, new[, count])
+
+# where count is the number of items you will replace the old item

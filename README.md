@@ -1,2 +1,1 @@
-# Learning Journey
- Notes on what I learn
+A compilation of useful notes.
