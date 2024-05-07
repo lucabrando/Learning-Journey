@@ -1,0 +1,5 @@
+import csv
+
+with open("test.csv", "w", newline = "") as file:
+    writer = csv.writer(file)
+    writer.writerows([["item1"], ["item2"]]) # if wanting multiple columns over 1 row use .writerow() instead
