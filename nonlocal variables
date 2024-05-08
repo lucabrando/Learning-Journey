@@ -1,0 +1,16 @@
+# The nonlocal keyword in Python is used to work with variables inside a nested function, where the variable should not belong to the inner function.
+# It is used to modify a variable that's assigned in the nearest enclosing scope that is not global.
+
+def outer():
+    x = "local"
+
+    def inner():
+        nonlocal x  # This is the nonlocal variable # Try removing this and the output will change
+        x = "nonlocal"
+        print("inner:", x)
+
+    inner()
+    print("outer:", x)
+
+
+outer()
