@@ -1,0 +1,9 @@
+HTTP methods are like different types of requests you can make to a website. Imagine you're at a restaurant.
+You can do several things: order food, pay the bill, ask for a menu, etc. Each of these actions is like an HTTP method.
+Here are some common HTTP methods:
+1. GET: This is like asking for a menu. You're asking the server to give you a specific page or resource.
+2. POST: This is like ordering food. You're sending information to the server, like your order details.
+3. PUT: This is like changing your order. You're updating an existing resource on the server.
+4. DELETE: This is like canceling your order. You're asking the server to remove a specific resource.
+5. HEAD: This is like asking if the restaurant is open. You're asking the server for a response, but without the actual content. You just want to know if the resource is there.
+6. OPTIONS: This is like asking what you can order. You're asking the server to tell you what methods are available for a specific resource.
