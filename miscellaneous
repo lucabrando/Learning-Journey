@@ -1,0 +1,2 @@
+Remove vs Pop:
+  -> remove is used when you want to remove an item by its value, while pop is used when you want to remove an item by its index position, and possibly use the removed item
